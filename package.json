@@ -1,0 +1,20 @@
+{
+  "name": "unexpected-snap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "jest --coverage",
+    "lint": "eslint .",
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-pretty-standard": "^0.2.2",
+    "jest": "^20.0.4",
+    "unexpected": "^10.33.0"
+  }
+}
