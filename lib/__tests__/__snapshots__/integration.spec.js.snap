@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`foo 1`] = `"foo"`;
+
+exports[`to throw error matching snapshot 1`] = `
+"expected 'foobar' to equal 'foo'
+
+-foobar
++foo"
+`;
+
+exports[`to throw error matching snapshot native 1`] = `
+"
+[31m[1mexpected[22m[39m [36m'foobar'[39m [31m[1mto equal[22m[39m [36m'fooba'[39m
+
+[41m[30mfoobar[39m[49m
+[42m[30mfooba[39m[49m
+"
+`;
