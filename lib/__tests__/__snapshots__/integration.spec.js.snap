@@ -1,5 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<object> to match snapshot simple 1`] = `"{ foo: 'barfoo' }"`;
+
+exports[`<object> to match snapshot with circular reference 1`] = `"{ foo: { bar: 'baz' }, obj: [Circular] }"`;
+
+exports[`<object> to match snapshot with functions 1`] = `
+"{ a: 'wholeLotOfFunctions',
+  af: [Function: af],
+  afb: [Function: afb],
+  anf: [Function: anf] }"
+`;
+
 exports[`foo 1`] = `"foo"`;
 
 exports[`to throw error matching snapshot 1`] = `
